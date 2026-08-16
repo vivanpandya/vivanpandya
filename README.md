@@ -22,90 +22,36 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1800&color=58A6FF&center=true&vCenter=true&width=700&lines=Full-Stack+Developer+in+Progress;AI%2FML+Enthusiast;Building+Real-World+Projects;Learning+%E2%86%92+Building+%E2%86%92+Shipping" alt="About Me Typing Animation"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:161B22&height=80&text=BUILDING%20SOFTWARE%2C%20ONE%20PROJECT%20AT%20A%20TIME&fontSize=15&fontColor=58A6FF&fontAlignY=55&animation=fadeIn" width="100%" alt="About Me Accent"/>
 
-<br/><br/>
+</div>
 
-<table>
+<br/>
+
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="55%" valign="top">
 
-<h3>👨‍💻 Who I Am</h3>
+I'm **Vivan Pandya**, a 3rd-year B.Tech CSE student at **PDEU, Gandhinagar**, graduating in 2028. I build full-stack applications end-to-end — from database schema to shipped UI — and I'm steadily deepening my grasp of AI/ML, data structures, and the architecture behind systems that actually scale.
 
-<p>
-I'm <strong>Vivan Pandya</strong>, a 3rd-year B.Tech CSE student at
-<strong>PDEU, Gandhinagar</strong>, passionate about turning ideas into
-real-world software.
-</p>
-
-<p>
-I enjoy working across the stack — from designing databases and APIs
-to building polished user interfaces.
-</p>
+I'd rather understand *why* something works than memorize that it does — which is usually where my best learning happens, mid-debug.
 
 </td>
+<td width="45%" valign="top">
 
-<td width="50%" valign="top">
+**Focus Areas**
 
-<h3>🚀 What I'm Focused On</h3>
-
-<p>🔹 Full-Stack Development</p>
-<p>🔹 Software Engineering</p>
-<p>🔹 AI / ML</p>
-<p>🔹 DSA & Problem Solving</p>
-<p>🔹 Scalable Backend Systems</p>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-<h3>🧠 How I Build</h3>
-
-<pre>
-Idea
-  ↓
-Design
-  ↓
-Build
-  ↓
-Debug
-  ↓
-Improve
-  ↓
-Ship 🚀
-</pre>
-
-</td>
-
-<td width="50%" valign="top">
-
-<h3>🎯 Currently Leveling Up</h3>
-
-<p>⚡ Backend Architecture</p>
-<p>⚡ Data Structures & Algorithms</p>
-<p>⚡ Applied AI / ML</p>
-<p>⚡ Production-ready Development</p>
+- Full-Stack Development
+- Software Engineering Fundamentals
+- AI / ML
+- Data Structures & Algorithms
+- Scalable Backend Systems
 
 </td>
 </tr>
 </table>
 
 <br/>
-
-<img src="https://img.shields.io/badge/BUILDING-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF"/>
-<img src="https://img.shields.io/badge/LEARNING-0D1117?style=for-the-badge&logo=bookstack&logoColor=58A6FF"/>
-<img src="https://img.shields.io/badge/DEBUGGING-0D1117?style=for-the-badge&logo=debug&logoColor=58A6FF"/>
-<img src="https://img.shields.io/badge/SHIPPING-0D1117?style=for-the-badge&logo=rocket&logoColor=58A6FF"/>
-
-<br/><br/>
-
-<sub>
-"Build it end-to-end — schema to UI."
-</sub>
-
-</div>
 
 ### `// tech_stack`
 
@@ -280,4 +226,3 @@ Open to learning, building, and meaningful opportunities.
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:161B22,100:0D1117&height=120&section=footer" width="100%" alt="Footer"/>
 
 <p align="center"><i>Designed with intention. Built with curiosity. Improving every day.</i></p>
-s
