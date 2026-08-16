@@ -176,12 +176,11 @@ Most of what I know comes from breaking things first — debugging is where the 
 ### `// github_activity`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vivanpandya&show_icons=true&theme=dark&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&border_color=30363D" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivanpandya&layout=compact&theme=dark&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&border_color=30363D" alt="Top languages" />
+  <img src="https://raw.githubusercontent.com/vivanpandya/vivanpandya/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vivanpandya/vivanpandya/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%"/>
+  <sub>Consistent building. Continuous learning. One contribution at a time.</sub>
 </p>
 
 <br/>
