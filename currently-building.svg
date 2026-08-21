@@ -1,0 +1,38 @@
+<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="winClip">
+      <rect x="1" y="1" width="998" height="298" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#winClip)">
+    <rect x="0" y="0" width="1000" height="300" fill="#0D1117"/>
+    <rect x="0" y="0" width="1000" height="46" fill="#161B22"/>
+    <line x1="0" y1="46" x2="1000" y2="46" stroke="#30363D" stroke-width="1"/>
+  </g>
+  <rect x="1" y="1" width="998" height="298" rx="12" fill="none" stroke="#30363D" stroke-width="1.5"/>
+
+  <circle cx="30" cy="23" r="5" fill="#30363D"/>
+  <circle cx="50" cy="23" r="5" fill="#30363D"/>
+  <circle cx="70" cy="23" r="5" fill="#30363D"/>
+
+  <text x="500" y="28" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B949E">vivan@dev &#8212; status</text>
+
+  <circle cx="960" cy="23" r="4" fill="#58A6FF">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <g font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16">
+    <text x="36" y="90" fill="#FFFFFF">vivan@dev:~$ <tspan fill="#58A6FF">status --current</tspan></text>
+
+    <text x="36" y="130" fill="#58A6FF">&gt;<tspan fill="#C9D1D9" dx="12">Refining backend architecture on a full-stack Insurance Management Platform</tspan></text>
+    <text x="36" y="160" fill="#58A6FF">&gt;<tspan fill="#C9D1D9" dx="12">Strengthening data structures &amp; algorithms fundamentals</tspan></text>
+    <text x="36" y="190" fill="#58A6FF">&gt;<tspan fill="#C9D1D9" dx="12">Exploring applied AI/ML through hands-on projects</tspan></text>
+    <text x="36" y="220" fill="#58A6FF">&gt;<tspan fill="#C9D1D9" dx="12">Shipping and iterating on personal engineering projects</tspan></text>
+
+    <text x="36" y="262" fill="#FFFFFF">vivan@dev:~$</text>
+    <rect x="168" y="249" width="10" height="18" fill="#58A6FF">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

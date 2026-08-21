@@ -1,0 +1,74 @@
+<svg width="1000" height="240" viewBox="0 0 1000 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#58A6FF"/>
+    </marker>
+    <marker id="arrowMuted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#30363D"/>
+    </marker>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <line x1="142" y1="100" x2="184" y2="100" stroke="#58A6FF" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="300" y1="100" x2="342" y2="100" stroke="#58A6FF" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="458" y1="100" x2="500" y2="100" stroke="#58A6FF" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="616" y1="100" x2="658" y2="100" stroke="#58A6FF" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="774" y1="100" x2="816" y2="100" stroke="#58A6FF" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <path d="M 875,130 C 875,205 85,205 85,130" fill="none" stroke="#30363D" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrowMuted)"/>
+  <text x="500" y="222" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8B949E">cycle repeats</text>
+
+  <g>
+    <rect x="24" y="64" width="122" height="72" rx="14" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0" filter="url(#glow)">
+      <animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.05;0.1;1" values="0;0.9;0;0"/>
+    </rect>
+    <rect x="30" y="70" width="110" height="60" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+    <text x="85" y="106" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="600" fill="#FFFFFF">Build</text>
+  </g>
+
+  <g>
+    <rect x="182" y="64" width="122" height="72" rx="14" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0" filter="url(#glow)">
+      <animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.1667;0.2167;0.2667;1" values="0;0;0.9;0;0"/>
+    </rect>
+    <rect x="188" y="70" width="110" height="60" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+    <text x="243" y="106" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="600" fill="#FFFFFF">Break</text>
+  </g>
+
+  <g>
+    <rect x="340" y="64" width="122" height="72" rx="14" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0" filter="url(#glow)">
+      <animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.3333;0.3833;0.4333;1" values="0;0;0.9;0;0"/>
+    </rect>
+    <rect x="346" y="70" width="110" height="60" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+    <text x="401" y="106" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="600" fill="#FFFFFF">Debug</text>
+  </g>
+
+  <g>
+    <rect x="498" y="64" width="122" height="72" rx="14" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0" filter="url(#glow)">
+      <animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.5;0.55;0.6;1" values="0;0;0.9;0;0"/>
+    </rect>
+    <rect x="504" y="70" width="110" height="60" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+    <text x="559" y="106" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="600" fill="#FFFFFF">Learn</text>
+  </g>
+
+  <g>
+    <rect x="656" y="64" width="122" height="72" rx="14" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0" filter="url(#glow)">
+      <animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.6667;0.7167;0.7667;1" values="0;0;0.9;0;0"/>
+    </rect>
+    <rect x="662" y="70" width="110" height="60" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+    <text x="717" y="106" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="600" fill="#FFFFFF">Improve</text>
+  </g>
+
+  <g>
+    <rect x="814" y="64" width="122" height="72" rx="14" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0" filter="url(#glow)">
+      <animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.8333;0.8833;0.9333;1" values="0;0;0.9;0;0"/>
+    </rect>
+    <rect x="820" y="70" width="110" height="60" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+    <text x="875" y="106" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="600" fill="#FFFFFF">Ship</text>
+  </g>
+</svg>
