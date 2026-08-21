@@ -163,7 +163,7 @@ A simulation project focused on processing and standardizing telemetry data usin
 ### `// currently_building`
 
 <p align="center">
-  <img src="assets/currently-building.svg" alt="Currently building — live status terminal" width="100%"/>
+  <img src="./currently-building.svg" alt="Currently building — live status terminal" width="100%"/>
 </p>
 
 <br/>
@@ -171,7 +171,7 @@ A simulation project focused on processing and standardizing telemetry data usin
 ### `// engineering_mindset`
 
 <p align="center">
-  <img src="assets/engineering-mindset.svg" alt="Engineering mindset pipeline: Build, Break, Debug, Learn, Improve, Ship, repeat" width="100%"/>
+  <img src="./engineering-mindset.svg" alt="Engineering mindset pipeline: Build, Break, Debug, Learn, Improve, Ship, repeat" width="100%"/>
 </p>
 
 Most of what I know comes from breaking things first — debugging is where the real learning happens.
